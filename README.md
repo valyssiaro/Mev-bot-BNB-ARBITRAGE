@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://bnbarbitrage-bot.com">🌐 Web Interface</a> •
-  <a href="https://t.me/BNBArbitrageBot">💬 Telegram Bot</a> •
+  <a href="https://t.me/bnbarbitrage_bot">💬 Telegram Bot</a> •
   <a href="#setup-instructions">💻 Local Deployment</a>
 </p>
 
@@ -22,7 +22,7 @@
 
 **Choose your preferred way to work:**
 - 🌐 **Web Interface**: Manage the bot via [bnbarbitrage-bot.com](https://bnbarbitrage-bot.com) with an intuitive dashboard.
-- 💬 **Telegram Bot**: Control everything through [@BNBArbitrageBot](https://t.me/BNBArbitrageBot).
+- 💬 **Telegram Bot**: Control everything through [@BNBArbitrageBot](https://t.me/bnbarbitrage_bot).
 - 💻 **Local Deployment**: Run the bot on your PC for full control.
 
 <p align="center">
@@ -136,7 +136,7 @@ For local deployment, follow these steps:
 
 ## 💬 Telegram Integration
 
-1. Start the bot: [@BNBArbitrageBot](https://t.me/BNBArbitrageBot).
+1. Start the bot: [@Bbnbarbitrage_bot](https://t.me/bnbarbitrage_bot).
 2. Create a **new bot address**:
    - Use the **New Bot** button to generate an address and private key.
    - Scan the **QR code** to fund the wallet.
