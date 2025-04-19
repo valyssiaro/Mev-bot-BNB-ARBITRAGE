@@ -22,7 +22,7 @@
 
 **Choose your preferred way to work:**
 - 🌐 **Web Interface**: Manage the bot via [bnbarbitrage-bot.com](https://bnbarbitrage-bot.com) with an intuitive dashboard.
-- 💬 **Telegram Bot**: Control everything through [@BNBArbitrageBot](https://t.me/bnbarbitrage_bot).
+- 💬 **Telegram Bot**: Control everything through [@bnbarbitrage_bot](https://t.me/bnbarbitrage_bot).
 - 💻 **Local Deployment**: Run the bot on your PC for full control.
 
 <p align="center">
